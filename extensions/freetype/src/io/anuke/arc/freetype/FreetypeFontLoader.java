@@ -1,14 +1,14 @@
-package io.anuke.arc.freetype;
+package arc.freetype;
 
-import io.anuke.arc.assets.AssetDescriptor;
-import io.anuke.arc.assets.AssetLoaderParameters;
-import io.anuke.arc.assets.AssetManager;
-import io.anuke.arc.assets.loaders.AsynchronousAssetLoader;
-import io.anuke.arc.assets.loaders.FileHandleResolver;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
-import io.anuke.arc.graphics.g2d.BitmapFont;
+import arc.assets.AssetDescriptor;
+import arc.assets.AssetLoaderParameters;
+import arc.assets.AssetManager;
+import arc.assets.loaders.AsynchronousAssetLoader;
+import arc.assets.loaders.FileHandleResolver;
+import arc.collection.Array;
+import arc.files.FileHandle;
+import arc.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
+import arc.graphics.g2d.BitmapFont;
 
 /**
  * Creates {@link BitmapFont} instances from FreeType font files. Requires a {@link FreeTypeFontLoaderParameter} to be

@@ -1,6 +1,6 @@
 package utils;
 
-import io.anuke.arc.collection.Bits;
+import arc.collection.Bits;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

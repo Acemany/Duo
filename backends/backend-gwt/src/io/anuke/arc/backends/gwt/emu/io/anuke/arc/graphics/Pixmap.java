@@ -1,10 +1,10 @@
-package io.anuke.arc.graphics;
+package arc.graphics;
 
-import io.anuke.arc.backends.gwt.GwtFileHandle;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.BufferUtils;
-import io.anuke.arc.util.Disposable;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.backends.gwt.GwtFileHandle;
+import arc.files.FileHandle;
+import arc.util.BufferUtils;
+import arc.util.Disposable;
+import arc.util.ArcRuntimeException;
 import com.google.gwt.canvas.client.Canvas;
 import com.google.gwt.canvas.dom.client.CanvasPixelArray;
 import com.google.gwt.canvas.dom.client.Context2d;

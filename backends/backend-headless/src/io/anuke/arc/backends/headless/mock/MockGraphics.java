@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.headless.mock;
+package arc.backends.headless.mock;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.Graphics;
-import io.anuke.arc.Graphics.Cursor.SystemCursor;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.GL30;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.glutils.GLVersion;
+import arc.Application;
+import arc.Graphics;
+import arc.Graphics.Cursor.SystemCursor;
+import arc.graphics.GL20;
+import arc.graphics.GL30;
+import arc.graphics.Pixmap;
+import arc.graphics.glutils.GLVersion;
 
 /**
  * The headless backend does its best to mock elements. This is intended to make code-sharing between

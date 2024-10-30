@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Audio;
-import io.anuke.arc.audio.AudioDevice;
-import io.anuke.arc.audio.AudioRecorder;
-import io.anuke.arc.audio.Music;
-import io.anuke.arc.audio.Sound;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Audio;
+import arc.audio.AudioDevice;
+import arc.audio.AudioRecorder;
+import arc.audio.Music;
+import arc.audio.Sound;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 public class GwtAudio implements Audio{
     @Override

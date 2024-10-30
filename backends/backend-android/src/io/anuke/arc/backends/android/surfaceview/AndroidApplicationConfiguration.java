@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.hardware.SensorManager;
 import android.media.SoundPool;
-import io.anuke.arc.Core;
-import io.anuke.arc.Input;
-import io.anuke.arc.audio.Sound;
-import io.anuke.arc.backends.android.surfaceview.surfaceview.FillResolutionStrategy;
-import io.anuke.arc.backends.android.surfaceview.surfaceview.ResolutionStrategy;
+import arc.Core;
+import arc.Input;
+import arc.audio.Sound;
+import arc.backends.android.surfaceview.surfaceview.FillResolutionStrategy;
+import arc.backends.android.surfaceview.surfaceview.ResolutionStrategy;
 
 /**
  * Class defining the configuration of an {@link AndroidApplication}. Allows you to disable the use of the accelerometer to save
@@ -99,9 +99,9 @@ public class AndroidApplicationConfiguration{
     public boolean useGL30 = false;
 
     /**
-     * whether to use {@link io.anuke.arc.backends.android.surfaceview.surfaceview.GLSurfaceView20API18} in place of the classic
-     * {@link io.anuke.arc.backends.android.surfaceview.surfaceview.GLSurfaceView20} on Android API 10 and lower.
-     * In case this is true {@link io.anuke.arc.backends.android.surfaceview.surfaceview.GLSurfaceView20API18} will be used.
+     * whether to use {@link arc.backends.android.surfaceview.surfaceview.GLSurfaceView20API18} in place of the classic
+     * {@link arc.backends.android.surfaceview.surfaceview.GLSurfaceView20} on Android API 10 and lower.
+     * In case this is true {@link arc.backends.android.surfaceview.surfaceview.GLSurfaceView20API18} will be used.
      * This implementation properly supports attach to and detach from window. default: false
      */
     public boolean useGLSurfaceView20API18 = false;

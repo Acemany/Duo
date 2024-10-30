@@ -1,15 +1,15 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Audio;
-import io.anuke.arc.Files;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.Graphics.DisplayMode;
-import io.anuke.arc.Graphics.Monitor;
-import io.anuke.arc.audio.Music;
-import io.anuke.arc.backends.lwjgl3.Lwjgl3Graphics.Lwjgl3Monitor;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.glutils.HdpiMode;
-import io.anuke.arc.graphics.glutils.HdpiUtils;
+import arc.Audio;
+import arc.Files;
+import arc.Files.FileType;
+import arc.Graphics.DisplayMode;
+import arc.Graphics.Monitor;
+import arc.audio.Music;
+import arc.backends.lwjgl3.Lwjgl3Graphics.Lwjgl3Monitor;
+import arc.graphics.GL20;
+import arc.graphics.glutils.HdpiMode;
+import arc.graphics.glutils.HdpiUtils;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.PointerBuffer;
 import org.lwjgl.glfw.GLFW;

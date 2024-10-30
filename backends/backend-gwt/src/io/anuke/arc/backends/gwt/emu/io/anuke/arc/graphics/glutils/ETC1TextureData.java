@@ -1,10 +1,10 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.TextureData;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.files.FileHandle;
+import arc.graphics.Pixmap;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.TextureData;
+import arc.util.ArcRuntimeException;
 
 public class ETC1TextureData implements TextureData{
     public ETC1TextureData(FileHandle file){

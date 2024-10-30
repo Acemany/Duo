@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.content.Context;
 import android.view.MotionEvent;

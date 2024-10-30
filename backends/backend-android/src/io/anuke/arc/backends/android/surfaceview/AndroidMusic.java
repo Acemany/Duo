@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.media.MediaPlayer;
-import io.anuke.arc.Core;
-import io.anuke.arc.audio.Music;
-import io.anuke.arc.util.Log;
+import arc.Core;
+import arc.audio.Music;
+import arc.util.Log;
 
 import java.io.IOException;
 

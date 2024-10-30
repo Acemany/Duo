@@ -14,7 +14,7 @@
  * the License.
  */
 
-package io.anuke.arc.backends.gwt.widgets;
+package arc.backends.gwt.widgets;
 
 import com.google.gwt.event.logical.shared.ResizeEvent;
 import com.google.gwt.event.logical.shared.ResizeHandler;

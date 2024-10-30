@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.backends.gwt.GwtGraphics.OrientationLockType;
+import arc.Application;
+import arc.backends.gwt.GwtGraphics.OrientationLockType;
 import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.TextArea;
 

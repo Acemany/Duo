@@ -1,8 +1,8 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.util.Clipboard;
+import arc.Core;
+import arc.graphics.Pixmap;
+import arc.util.Clipboard;
 import org.lwjgl.glfw.GLFW;
 
 /**

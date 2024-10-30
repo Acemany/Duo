@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
-import io.anuke.arc.Application;
-import io.anuke.arc.collection.Array;
+import arc.Application;
+import arc.collection.Array;
 
 /**
  * Interface that abstracts the Android application class usages, so that libGDX can be used with a fragment (or with any other

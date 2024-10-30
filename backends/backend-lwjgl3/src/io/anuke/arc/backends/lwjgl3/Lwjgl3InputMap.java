@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.input.KeyCode;
+import arc.input.KeyCode;
 
 import static org.lwjgl.glfw.GLFW.*;
 

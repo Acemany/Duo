@@ -1,14 +1,14 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.Core;
-import io.anuke.arc.Graphics;
-import io.anuke.arc.Graphics.Cursor.SystemCursor;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.GL30;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.glutils.GLVersion;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Application;
+import arc.Core;
+import arc.Graphics;
+import arc.Graphics.Cursor.SystemCursor;
+import arc.graphics.GL20;
+import arc.graphics.GL30;
+import arc.graphics.Pixmap;
+import arc.graphics.glutils.GLVersion;
+import arc.util.ArcRuntimeException;
 import com.google.gwt.canvas.client.Canvas;
 import com.google.gwt.dom.client.CanvasElement;
 import com.google.gwt.user.client.ui.Panel;
@@ -227,7 +227,7 @@ public class GwtGraphics extends Graphics{
 					.addEventListener(
 							"fullscreenchange",
 							function() {
-								graphics.@io.anuke.arc.backends.gwt.GwtGraphics::fullscreenChanged()();
+								graphics.@arc.backends.gwt.GwtGraphics::fullscreenChanged()();
 							}, false);
 			return true;
 		}
@@ -240,7 +240,7 @@ public class GwtGraphics extends Graphics{
 					.addEventListener(
 							"webkitfullscreenchange",
 							function() {
-								graphics.@io.anuke.arc.backends.gwt.GwtGraphics::fullscreenChanged()();
+								graphics.@arc.backends.gwt.GwtGraphics::fullscreenChanged()();
 							}, false);
 			return true;
 		}
@@ -252,7 +252,7 @@ public class GwtGraphics extends Graphics{
 					.addEventListener(
 							"mozfullscreenchange",
 							function() {
-								graphics.@io.anuke.arc.backends.gwt.GwtGraphics::fullscreenChanged()();
+								graphics.@arc.backends.gwt.GwtGraphics::fullscreenChanged()();
 							}, false);
 			return true;
 		}
@@ -264,7 +264,7 @@ public class GwtGraphics extends Graphics{
 					.addEventListener(
 							"msfullscreenchange",
 							function() {
-								graphics.@io.anuke.arc.backends.gwt.GwtGraphics::fullscreenChanged()();
+								graphics.@arc.backends.gwt.GwtGraphics::fullscreenChanged()();
 							}, false);
 			return true;
 		}

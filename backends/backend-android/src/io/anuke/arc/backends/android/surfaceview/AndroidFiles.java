@@ -1,14 +1,14 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Environment;
-import io.anuke.arc.Core;
-import io.anuke.arc.Files;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Core;
+import arc.Files;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 import java.io.IOException;
 

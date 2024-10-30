@@ -1,20 +1,20 @@
-package io.anuke.arc.recorder;
+package arc.recorder;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.graphics.Color;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.PixmapIO.PNG;
-import io.anuke.arc.graphics.g2d.Draw;
-import io.anuke.arc.graphics.g2d.Fill;
-import io.anuke.arc.input.KeyCode;
-import io.anuke.arc.math.Matrix3;
-import io.anuke.arc.math.geom.Rectangle;
-import io.anuke.arc.util.BufferUtils;
-import io.anuke.arc.util.ScreenUtils;
-import io.anuke.arc.util.Time;
+import arc.Core;
+import arc.collection.Array;
+import arc.files.FileHandle;
+import arc.graphics.Color;
+import arc.graphics.Pixmap;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.PixmapIO.PNG;
+import arc.graphics.g2d.Draw;
+import arc.graphics.g2d.Fill;
+import arc.input.KeyCode;
+import arc.math.Matrix3;
+import arc.math.geom.Rectangle;
+import arc.util.BufferUtils;
+import arc.util.ScreenUtils;
+import arc.util.Time;
 
 import javax.imageio.ImageIO;
 import javax.imageio.stream.FileImageOutputStream;

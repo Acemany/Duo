@@ -1,4 +1,4 @@
-package io.anuke.arc.util.async;
+package arc.util.async;
 
 /**
  * Returned by {@link AsyncExecutor#submit(AsyncTask)}, allows to poll

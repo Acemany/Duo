@@ -14,10 +14,10 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.opengl.GLES30;
-import io.anuke.arc.graphics.GL30;
+import arc.graphics.GL30;
 
 public class AndroidGL30 extends AndroidGL20 implements GL30{
     @Override

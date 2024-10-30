@@ -14,11 +14,11 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Net;
-import io.anuke.arc.net.*;
-import io.anuke.arc.util.SharedLibraryLoader;
+import arc.Net;
+import arc.net.*;
+import arc.util.SharedLibraryLoader;
 
 import java.io.BufferedReader;
 import java.io.IOException;

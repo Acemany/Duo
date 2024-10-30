@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
 public class DefaultAssetFilter implements AssetFilter{
     private String extension(String file){

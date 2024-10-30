@@ -1,16 +1,16 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.ApplicationListener;
-import io.anuke.arc.Core;
-import io.anuke.arc.backends.gwt.preloader.Preloader;
-import io.anuke.arc.backends.gwt.preloader.Preloader.PreloaderCallback;
-import io.anuke.arc.backends.gwt.preloader.Preloader.PreloaderState;
-import io.anuke.arc.backends.gwt.soundmanager2.SoundManager;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.util.Clipboard;
-import io.anuke.arc.util.Log;
-import io.anuke.arc.util.Log.LogLevel;
+import arc.Application;
+import arc.ApplicationListener;
+import arc.Core;
+import arc.backends.gwt.preloader.Preloader;
+import arc.backends.gwt.preloader.Preloader.PreloaderCallback;
+import arc.backends.gwt.preloader.Preloader.PreloaderState;
+import arc.backends.gwt.soundmanager2.SoundManager;
+import arc.collection.Array;
+import arc.util.Clipboard;
+import arc.util.Log;
+import arc.util.Log.LogLevel;
 import com.google.gwt.animation.client.AnimationScheduler;
 import com.google.gwt.animation.client.AnimationScheduler.AnimationCallback;
 import com.google.gwt.core.client.EntryPoint;
@@ -22,7 +22,7 @@ import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.*;
-import io.anuke.arc.util.Time;
+import arc.util.Time;
 
 /**
  * Implementation of an {@link Application} based on GWT. Clients have to override {@link #getConfig()} and
@@ -375,7 +375,7 @@ public abstract class GwtApplication implements EntryPoint, Application{
 
 		if (eventName !== null) {
 			$doc.addEventListener(eventName, function(e) {
-				self.@io.anuke.arc.backends.gwt.GwtApplication::onVisibilityChange(Z)($doc['hidden'] !== true);
+				self.@arc.backends.gwt.GwtApplication::onVisibilityChange(Z)($doc['hidden'] !== true);
 			});
 		}
 	}-*/;

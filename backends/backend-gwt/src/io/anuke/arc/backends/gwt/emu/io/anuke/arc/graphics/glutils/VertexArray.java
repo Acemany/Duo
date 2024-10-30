@@ -1,7 +1,7 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
-import io.anuke.arc.graphics.VertexAttribute;
-import io.anuke.arc.graphics.VertexAttributes;
+import arc.graphics.VertexAttribute;
+import arc.graphics.VertexAttributes;
 
 /**
  * <p>

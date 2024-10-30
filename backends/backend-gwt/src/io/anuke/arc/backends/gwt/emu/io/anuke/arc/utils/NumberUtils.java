@@ -1,4 +1,4 @@
-package io.anuke.arc.util;
+package arc.util;
 
 import com.google.gwt.corp.compatibility.Numbers;
 

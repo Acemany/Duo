@@ -1,15 +1,15 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.ImageElement;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.backends.gwt.GwtFileHandle;
-import io.anuke.arc.backends.gwt.preloader.AssetDownloader.AssetLoaderListener;
-import io.anuke.arc.backends.gwt.preloader.AssetFilter.AssetType;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.collection.ObjectMap;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Files.FileType;
+import arc.backends.gwt.GwtFileHandle;
+import arc.backends.gwt.preloader.AssetDownloader.AssetLoaderListener;
+import arc.backends.gwt.preloader.AssetFilter.AssetType;
+import arc.collection.Array;
+import arc.collection.ObjectMap;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 import java.io.*;
 

@@ -20,11 +20,11 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package io.anuke.arc.backends.lwjgl3.audio;
+package arc.backends.lwjgl3.audio;
 
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.Log;
-import io.anuke.arc.util.io.StreamUtils;
+import arc.util.ArcRuntimeException;
+import arc.util.Log;
+import arc.util.io.StreamUtils;
 import com.jcraft.jogg.Packet;
 import com.jcraft.jogg.Page;
 import com.jcraft.jogg.StreamState;

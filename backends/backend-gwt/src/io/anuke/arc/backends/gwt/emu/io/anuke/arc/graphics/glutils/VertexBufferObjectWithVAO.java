@@ -1,12 +1,12 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.collection.IntArray;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.GL30;
-import io.anuke.arc.graphics.VertexAttribute;
-import io.anuke.arc.graphics.VertexAttributes;
-import io.anuke.arc.util.BufferUtils;
+import arc.Core;
+import arc.collection.IntArray;
+import arc.graphics.GL20;
+import arc.graphics.GL30;
+import arc.graphics.VertexAttribute;
+import arc.graphics.VertexAttributes;
+import arc.util.BufferUtils;
 
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
@@ -49,7 +49,7 @@ public class VertexBufferObjectWithVAO implements VertexData{
      * Constructs a new interleaved VertexBufferObjectWithVAO.
      * @param isStatic whether the vertex data is static.
      * @param numVertices the maximum number of vertices
-     * @param attributes the {@link io.anuke.arc.graphics.VertexAttribute}s.
+     * @param attributes the {@link arc.graphics.VertexAttribute}s.
      */
     public VertexBufferObjectWithVAO(boolean isStatic, int numVertices, VertexAttribute... attributes){
         this(isStatic, numVertices, new VertexAttributes(attributes));

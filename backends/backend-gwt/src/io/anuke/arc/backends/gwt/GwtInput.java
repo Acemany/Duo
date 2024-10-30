@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
@@ -7,15 +7,15 @@ import com.google.gwt.dom.client.Document;
 import com.google.gwt.dom.client.NativeEvent;
 import com.google.gwt.dom.client.Touch;
 import com.google.gwt.event.dom.client.KeyCodes;
-import io.anuke.arc.Core;
-import io.anuke.arc.Input;
-import io.anuke.arc.collection.Bits;
-import io.anuke.arc.collection.IntMap;
-import io.anuke.arc.collection.IntSet;
-import io.anuke.arc.collection.IntSet.IntSetIterator;
-import io.anuke.arc.input.InputProcessor;
-import io.anuke.arc.input.KeyCode;
-import io.anuke.arc.util.Time;
+import arc.Core;
+import arc.Input;
+import arc.collection.Bits;
+import arc.collection.IntMap;
+import arc.collection.IntSet;
+import arc.collection.IntSet.IntSetIterator;
+import arc.input.InputProcessor;
+import arc.input.KeyCode;
+import arc.util.Time;
 
 public class GwtInput extends Input{
     static final int MAX_TOUCHES = 20;
@@ -137,13 +137,13 @@ public class GwtInput extends Input{
 				.addEventListener(
 						name,
 						function(e) {
-							handler.@io.anuke.arc.backends.gwt.GwtInput::handleEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
+							handler.@arc.backends.gwt.GwtInput::handleEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
 						}, capture);
 	}-*/;
 
     private static native float getMouseWheelVelocity(NativeEvent evt) /*-{
 		var delta = 0.0;
-		var agentInfo = @io.anuke.arc.backends.gwt.GwtApplication::agentInfo()();
+		var agentInfo = @arc.backends.gwt.GwtApplication::agentInfo()();
 
 		if (agentInfo.isFirefox) {
 			if (agentInfo.isMacOS) {

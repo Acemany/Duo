@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,14 +8,14 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Build;
-import io.anuke.arc.Audio;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.audio.AudioDevice;
-import io.anuke.arc.audio.AudioRecorder;
-import io.anuke.arc.audio.Music;
-import io.anuke.arc.audio.Sound;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Audio;
+import arc.Files.FileType;
+import arc.audio.AudioDevice;
+import arc.audio.AudioRecorder;
+import arc.audio.Music;
+import arc.audio.Sound;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 import java.io.FileDescriptor;
 import java.io.IOException;

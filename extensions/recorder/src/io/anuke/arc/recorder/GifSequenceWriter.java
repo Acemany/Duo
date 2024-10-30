@@ -1,4 +1,4 @@
-package io.anuke.arc.recorder;
+package arc.recorder;
 
 import javax.imageio.*;
 import javax.imageio.metadata.IIOMetadata;

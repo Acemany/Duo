@@ -1,7 +1,7 @@
 package java.util.zip;
 
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.io.StreamUtils;
+import arc.util.ArcRuntimeException;
+import arc.util.io.StreamUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

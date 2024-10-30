@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
 /**
  * Interface used by the PreloaderBundleGenerator to decide whether an asset found in the gdx.assetpath should be included in the

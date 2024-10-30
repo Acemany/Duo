@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview.surfaceview;
+package arc.backends.android.surfaceview.surfaceview;
 
 import android.view.View;
 

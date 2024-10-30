@@ -14,7 +14,7 @@
  * the License.
  */
 
-package io.anuke.arc.backends.gwt.widgets;
+package arc.backends.gwt.widgets;
 
 /** An interface that defines the methods required to support automatic resizing of the Widget element. */
 @SuppressWarnings("deprecation")

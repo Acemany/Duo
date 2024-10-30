@@ -1,9 +1,9 @@
-package io.anuke.arc.util;
+package arc.util;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.ApplicationListener;
-import io.anuke.arc.Core;
-import io.anuke.arc.collection.Array;
+import arc.Application;
+import arc.ApplicationListener;
+import arc.Core;
+import arc.collection.Array;
 
 /**
  * Executes tasks in the future on the main loop thread.

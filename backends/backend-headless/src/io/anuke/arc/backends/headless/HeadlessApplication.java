@@ -1,16 +1,16 @@
-package io.anuke.arc.backends.headless;
+package arc.backends.headless;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.ApplicationListener;
-import io.anuke.arc.Core;
-import io.anuke.arc.Settings;
-import io.anuke.arc.backends.headless.mock.MockAudio;
-import io.anuke.arc.backends.headless.mock.MockGraphics;
-import io.anuke.arc.backends.headless.mock.MockInput;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.Clipboard;
-import io.anuke.arc.util.Time;
+import arc.Application;
+import arc.ApplicationListener;
+import arc.Core;
+import arc.Settings;
+import arc.backends.headless.mock.MockAudio;
+import arc.backends.headless.mock.MockGraphics;
+import arc.backends.headless.mock.MockInput;
+import arc.collection.Array;
+import arc.util.ArcRuntimeException;
+import arc.util.Clipboard;
+import arc.util.Time;
 
 /**
  * a headless implementation of a GDX Application primarily intended to be used in servers

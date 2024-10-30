@@ -1,8 +1,8 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Graphics.Cursor;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Graphics.Cursor;
+import arc.graphics.Pixmap;
+import arc.util.ArcRuntimeException;
 
 public class GwtCursor implements Cursor{
     String cssCursorProperty;

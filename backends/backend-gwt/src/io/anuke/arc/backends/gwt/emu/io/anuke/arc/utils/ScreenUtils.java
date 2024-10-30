@@ -1,12 +1,12 @@
-package io.anuke.arc.util;
+package arc.util;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.Texture;
-import io.anuke.arc.graphics.g2d.TextureRegion;
-import io.anuke.arc.math.Mathf;
+import arc.Core;
+import arc.graphics.GL20;
+import arc.graphics.Pixmap;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.Texture;
+import arc.graphics.g2d.TextureRegion;
+import arc.math.Mathf;
 import com.google.gwt.canvas.dom.client.Context2d;
 import com.google.gwt.typedarrays.shared.ArrayBufferView;
 

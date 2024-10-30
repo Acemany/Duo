@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -14,16 +14,16 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-import io.anuke.arc.Application;
-import io.anuke.arc.ApplicationListener;
-import io.anuke.arc.Core;
-import io.anuke.arc.Settings;
-import io.anuke.arc.backends.android.surfaceview.surfaceview.FillResolutionStrategy;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.util.ArcNativesLoader;
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.Clipboard;
-import io.anuke.arc.util.Log;
+import arc.Application;
+import arc.ApplicationListener;
+import arc.Core;
+import arc.Settings;
+import arc.backends.android.surfaceview.surfaceview.FillResolutionStrategy;
+import arc.collection.Array;
+import arc.util.ArcNativesLoader;
+import arc.util.ArcRuntimeException;
+import arc.util.Clipboard;
+import arc.util.Log;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.ExecutorService;
@@ -167,7 +167,7 @@ public class AndroidApplication extends Activity implements AndroidApplicationBa
         useImmersiveMode(this.useImmersiveMode);
         if(this.useImmersiveMode && getVersion() >= Build.VERSION_CODES.KITKAT){
             try{
-                Class<?> vlistener = Class.forName("io.anuke.arc.backends.android.surfaceview.AndroidVisibilityListener");
+                Class<?> vlistener = Class.forName("arc.backends.android.surfaceview.AndroidVisibilityListener");
                 Object o = vlistener.newInstance();
                 Method method = vlistener.getDeclaredMethod("createListener", AndroidApplicationBase.class);
                 method.invoke(o, this);

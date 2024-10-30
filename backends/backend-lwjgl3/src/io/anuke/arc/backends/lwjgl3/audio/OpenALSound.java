@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.lwjgl3.audio;
+package arc.backends.lwjgl3.audio;
 
-import io.anuke.arc.audio.Sound;
+import arc.audio.Sound;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

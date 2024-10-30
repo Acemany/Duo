@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.gwt.soundmanager2;
+package arc.backends.gwt.soundmanager2;
 
-import io.anuke.arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback;
+import arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback;
 
 public class SMSoundOptions{
     public int volume = 100;

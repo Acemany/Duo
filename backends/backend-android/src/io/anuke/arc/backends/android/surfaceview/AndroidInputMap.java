@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
-import io.anuke.arc.input.KeyCode;
+import arc.input.KeyCode;
 
 public class AndroidInputMap{
 

@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
-import io.anuke.arc.backends.gwt.preloader.AssetFilter.AssetType;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.backends.gwt.preloader.AssetFilter.AssetType;
+import arc.util.ArcRuntimeException;
 import com.google.gwt.dom.client.ImageElement;
 import com.google.gwt.dom.client.NativeEvent;
 import com.google.gwt.typedarrays.shared.Int8Array;
@@ -25,13 +25,13 @@ public class AssetDownloader{
 				.addEventListener(
 						'load',
 						function(e) {
-							h.@io.anuke.arc.backends.gwt.preloader.AssetDownloader.ImgEventListener::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
+							h.@arc.backends.gwt.preloader.AssetDownloader.ImgEventListener::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
 						}, false);
 		img
 				.addEventListener(
 						'error',
 						function(e) {
-							h.@io.anuke.arc.backends.gwt.preloader.AssetDownloader.ImgEventListener::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
+							h.@arc.backends.gwt.preloader.AssetDownloader.ImgEventListener::onEvent(Lcom/google/gwt/dom/client/NativeEvent;)(e);
 						}, false);
 	}-*/;
 
@@ -42,7 +42,7 @@ public class AssetDownloader{
     private native static void setOnProgress(XMLHttpRequest req, AssetLoaderListener listener) /*-{
 		var _this = this;
 		this.onprogress = $entry(function(evt) {
-			listener.@io.anuke.arc.backends.gwt.preloader.AssetDownloader.AssetLoaderListener::onProgress(D)(evt.loaded);
+			listener.@arc.backends.gwt.preloader.AssetDownloader.AssetLoaderListener::onProgress(D)(evt.loaded);
 		});
 	}-*/;
 

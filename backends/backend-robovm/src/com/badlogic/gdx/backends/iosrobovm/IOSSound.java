@@ -1,12 +1,12 @@
 package com.badlogic.gdx.backends.iosrobovm;
 
-import io.anuke.arc.audio.Sound;
+import arc.audio.Sound;
 import com.badlogic.gdx.backends.iosrobovm.objectal.ALBuffer;
 import com.badlogic.gdx.backends.iosrobovm.objectal.ALChannelSource;
 import com.badlogic.gdx.backends.iosrobovm.objectal.ALSource;
 import com.badlogic.gdx.backends.iosrobovm.objectal.OALSimpleAudio;
-import io.anuke.arc.collection.IntArray;
-import io.anuke.arc.files.FileHandle;
+import arc.collection.IntArray;
+import arc.files.FileHandle;
 import org.robovm.apple.foundation.NSArray;
 
 /**

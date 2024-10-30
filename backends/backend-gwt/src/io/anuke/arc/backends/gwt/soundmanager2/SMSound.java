@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt.soundmanager2;
+package arc.backends.gwt.soundmanager2;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
@@ -15,7 +15,7 @@ public class SMSound{
 
     /** Stops, unloads and destroys a sound, freeing resources etc. */
     public native final void destruct() /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.destruct();
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.destruct();
 	}-*/;
 
     /**
@@ -23,7 +23,7 @@ public class SMSound{
      * @return The current playing position of the sound.
      */
     public native final int getPosition() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.position;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.position;
 	}-*/;
 
     /**
@@ -31,26 +31,26 @@ public class SMSound{
      * @param position the position to seek to.
      */
     public native final void setPosition(int position) /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.setPosition(position);
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.setPosition(position);
 	}-*/;
 
     /** Pauses the given sound. (Does not toggle.) Affects paused property (boolean.) */
     public native final void pause() /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.pause();
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.pause();
 	}-*/;
 
     /** Starts playing the given sound. */
     public native final void play(SMSoundOptions options) /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.play(
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.play(
 			{
-				volume: options.@io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions::volume,
-				pan: options.@io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions::pan,
-				loops: options.@io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions::loops,
-				from: options.@io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions::from,
+				volume: options.@arc.backends.gwt.soundmanager2.SMSoundOptions::volume,
+				pan: options.@arc.backends.gwt.soundmanager2.SMSoundOptions::pan,
+				loops: options.@arc.backends.gwt.soundmanager2.SMSoundOptions::loops,
+				from: options.@arc.backends.gwt.soundmanager2.SMSoundOptions::from,
 				onfinish: function() {
-					var callback = options.@io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions::callback;
+					var callback = options.@arc.backends.gwt.soundmanager2.SMSoundOptions::callback;
 					if(callback != null) {
-						callback.@io.anuke.arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback::onfinish()();
+						callback.@arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback::onfinish()();
 					}
 				}
 			}
@@ -59,17 +59,17 @@ public class SMSound{
 
     /** Starts playing the given sound. */
     public native final void play() /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.play();
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.play();
 	}-*/;
 
     /** Resumes the currently-paused sound. Does not affect currently-playing sounds. */
     public native final void resume() /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.resume();
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.resume();
 	}-*/;
 
     /** Stops playing the given sound. */
     public native final void stop() /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.stop();
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.stop();
 	}-*/;
 
     /**
@@ -77,7 +77,7 @@ public class SMSound{
      * @return the volume as a value between 0-100.
      */
     public native final int getVolume() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.volume;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.volume;
 	}-*/;
 
     /**
@@ -85,7 +85,7 @@ public class SMSound{
      * @param volume the volume, accepted values: 0-100.
      */
     public native final void setVolume(int volume) /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.setVolume(volume);
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.setVolume(volume);
 	}-*/;
 
     /**
@@ -93,7 +93,7 @@ public class SMSound{
      * @return the pan as a value between -100-100. (L/R, 0 = center.)
      */
     public native final int getPan() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.pan;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.pan;
 	}-*/;
 
     /**
@@ -101,7 +101,7 @@ public class SMSound{
      * @param pan the panning amount, accepted values: -100 to 100 (L/R, 0 = center.)
      */
     public native final void setPan(int pan) /*-{
-		this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.setPan(pan);
+		this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.setPan(pan);
 	}-*/;
 
     /**
@@ -112,17 +112,17 @@ public class SMSound{
      * @return the current playing state.
      */
     public native final int getPlayState() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.playState;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.playState;
 	}-*/;
 
     /** Boolean indicating pause status. True/False. */
     public native final boolean getPaused() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.paused;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.paused;
 	}-*/;
 
     /** Number of times to loop the sound. */
     public native final int getLoops() /*-{
-		return this.@io.anuke.arc.backends.gwt.soundmanager2.SMSound::jsSound.loops;
+		return this.@arc.backends.gwt.soundmanager2.SMSound::jsSound.loops;
 	}-*/;
 
     public interface SMSoundCallback{

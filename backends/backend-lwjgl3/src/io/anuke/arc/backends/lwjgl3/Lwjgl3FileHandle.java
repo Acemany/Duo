@@ -1,8 +1,8 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Files.FileType;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 import java.io.File;
 

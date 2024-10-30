@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import io.anuke.arc.Input.Peripheral;
+import arc.Input.Peripheral;
 
 /**
  * Responsible for showing and hiding the Android onscreen keyboard (aka softkeyboard). Uses a dialog with an invisible TextView

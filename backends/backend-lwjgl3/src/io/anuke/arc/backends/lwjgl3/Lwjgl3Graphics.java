@@ -1,14 +1,14 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Application;
-import io.anuke.arc.Graphics;
-import io.anuke.arc.Graphics.Cursor.SystemCursor;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.GL30;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.glutils.GLVersion;
-import io.anuke.arc.graphics.glutils.HdpiMode;
-import io.anuke.arc.util.Disposable;
+import arc.Application;
+import arc.Graphics;
+import arc.Graphics.Cursor.SystemCursor;
+import arc.graphics.GL20;
+import arc.graphics.GL30;
+import arc.graphics.Pixmap;
+import arc.graphics.glutils.GLVersion;
+import arc.graphics.glutils.HdpiMode;
+import arc.util.Disposable;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.PointerBuffer;
 import org.lwjgl.glfw.GLFW;

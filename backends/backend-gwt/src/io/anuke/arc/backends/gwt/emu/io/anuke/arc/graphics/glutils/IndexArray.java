@@ -1,4 +1,4 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
 /**
  * <p>

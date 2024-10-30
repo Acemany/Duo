@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Net;
-import io.anuke.arc.collection.ObjectMap;
-import io.anuke.arc.net.*;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Net;
+import arc.collection.ObjectMap;
+import arc.net.*;
+import arc.util.ArcRuntimeException;
 import com.google.gwt.http.client.*;
 import com.google.gwt.user.client.Window;
 

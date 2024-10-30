@@ -14,32 +14,32 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.freetype;
+package arc.freetype;
 
 import com.badlogic.gdx.graphics.g2d.freetype.FreeType;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeType.*;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.graphics.Color;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.Texture.TextureFilter;
-import io.anuke.arc.graphics.g2d.BitmapFont;
-import io.anuke.arc.graphics.g2d.BitmapFont.BitmapFontData;
-import io.anuke.arc.graphics.g2d.BitmapFont.Glyph;
-import io.anuke.arc.graphics.g2d.GlyphLayout.GlyphRun;
-import io.anuke.arc.graphics.g2d.PixmapPacker;
-import io.anuke.arc.graphics.g2d.PixmapPacker.GuillotineStrategy;
-import io.anuke.arc.graphics.g2d.PixmapPacker.PackStrategy;
-import io.anuke.arc.graphics.g2d.PixmapPacker.SkylineStrategy;
-import io.anuke.arc.graphics.g2d.TextureRegion;
-import io.anuke.arc.math.Mathf;
-import io.anuke.arc.math.geom.Rectangle;
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.BufferUtils;
-import io.anuke.arc.util.Disposable;
-import io.anuke.arc.util.Log;
-import io.anuke.arc.util.io.StreamUtils;
+import arc.collection.Array;
+import arc.files.FileHandle;
+import arc.graphics.Color;
+import arc.graphics.Pixmap;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.Texture.TextureFilter;
+import arc.graphics.g2d.BitmapFont;
+import arc.graphics.g2d.BitmapFont.BitmapFontData;
+import arc.graphics.g2d.BitmapFont.Glyph;
+import arc.graphics.g2d.GlyphLayout.GlyphRun;
+import arc.graphics.g2d.PixmapPacker;
+import arc.graphics.g2d.PixmapPacker.GuillotineStrategy;
+import arc.graphics.g2d.PixmapPacker.PackStrategy;
+import arc.graphics.g2d.PixmapPacker.SkylineStrategy;
+import arc.graphics.g2d.TextureRegion;
+import arc.math.Mathf;
+import arc.math.geom.Rectangle;
+import arc.util.ArcRuntimeException;
+import arc.util.BufferUtils;
+import arc.util.Disposable;
+import arc.util.Log;
+import arc.util.io.StreamUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

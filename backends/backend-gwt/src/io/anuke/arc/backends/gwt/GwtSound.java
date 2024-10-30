@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.audio.Sound;
-import io.anuke.arc.files.FileHandle;
+import arc.audio.Sound;
+import arc.files.FileHandle;
 
 public class GwtSound implements Sound{
 

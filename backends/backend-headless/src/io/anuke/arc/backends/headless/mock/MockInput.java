@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.headless.mock;
+package arc.backends.headless.mock;
 
-import io.anuke.arc.Input;
+import arc.Input;
 
 /**
  * The headless backend does its best to mock elements. This is intended to make code-sharing between

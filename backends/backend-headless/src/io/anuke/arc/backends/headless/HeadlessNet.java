@@ -14,10 +14,10 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.backends.headless;
+package arc.backends.headless;
 
-import io.anuke.arc.Net;
-import io.anuke.arc.net.*;
+import arc.Net;
+import arc.net.*;
 
 /**
  * Headless implementation of the {@link Net} API, based on LWJGL implementation

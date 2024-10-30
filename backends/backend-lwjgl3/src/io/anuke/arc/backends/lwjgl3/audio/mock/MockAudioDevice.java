@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.lwjgl3.audio.mock;
+package arc.backends.lwjgl3.audio.mock;
 
-import io.anuke.arc.audio.AudioDevice;
+import arc.audio.AudioDevice;
 
 /**
  * The headless backend does its best to mock elements. This is intended to make code-sharing between

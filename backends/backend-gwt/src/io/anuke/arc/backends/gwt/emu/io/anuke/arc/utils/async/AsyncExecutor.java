@@ -1,7 +1,7 @@
-package io.anuke.arc.util.async;
+package arc.util.async;
 
-import io.anuke.arc.util.Disposable;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.util.Disposable;
+import arc.util.ArcRuntimeException;
 
 /**
  * GWT emulation of AsynchExecutor, will call tasks immediately :D

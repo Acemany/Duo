@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.ApplicationListener;
-import io.anuke.arc.Core;
-import io.anuke.arc.Files;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.util.Disposable;
-import io.anuke.arc.util.SharedLibraryLoader;
+import arc.ApplicationListener;
+import arc.Core;
+import arc.Files;
+import arc.collection.Array;
+import arc.graphics.Pixmap;
+import arc.util.Disposable;
+import arc.util.SharedLibraryLoader;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.glfw.*;
 

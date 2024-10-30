@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt.soundmanager2;
+package arc.backends.gwt.soundmanager2;
 
 public class SoundManager{
 
@@ -41,7 +41,7 @@ public class SoundManager{
      */
     public static native SMSound createSound(String url) /*-{
 		var jsSound = $wnd.soundManager.createSound({url: url});
-		return @io.anuke.arc.backends.gwt.soundmanager2.SMSound::new(Lcom/google/gwt/core/client/JavaScriptObject;)(jsSound);
+		return @arc.backends.gwt.soundmanager2.SMSound::new(Lcom/google/gwt/core/client/JavaScriptObject;)(jsSound);
 	}-*/;
 
     public static native void reboot() /*-{
@@ -59,10 +59,10 @@ public class SoundManager{
 			flashVersion: flashVersion,
 			preferFlash: preferFlash,
 			onready: function() {
-				callback.@io.anuke.arc.backends.gwt.soundmanager2.SoundManager.SoundManagerCallback::onready()();
+				callback.@arc.backends.gwt.soundmanager2.SoundManager.SoundManagerCallback::onready()();
 			},
 			ontimeout: function(status) {
-				callback.@io.anuke.arc.backends.gwt.soundmanager2.SoundManager.SoundManagerCallback::ontimeout(Ljava/lang/String;Ljava/lang/String;)(status.success, (typeof status.error === 'undefined') ? '' : status.error.type);
+				callback.@arc.backends.gwt.soundmanager2.SoundManager.SoundManagerCallback::ontimeout(Ljava/lang/String;Ljava/lang/String;)(status.success, (typeof status.error === 'undefined') ? '' : status.error.type);
 			}
 
 		});

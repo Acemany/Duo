@@ -1,9 +1,9 @@
-package io.anuke.arc.graphics;
+package arc.graphics;
 
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.glutils.FileTextureData;
-import io.anuke.arc.graphics.glutils.MipMapGenerator;
+import arc.files.FileHandle;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.glutils.FileTextureData;
+import arc.graphics.glutils.MipMapGenerator;
 
 /**
  * Used by a {@link Texture} to load the pixel data. A TextureData can either return a {@link Pixmap} or upload the pixel data

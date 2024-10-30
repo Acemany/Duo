@@ -1,4 +1,4 @@
-package io.anuke.arc.util.async;
+package arc.util.async;
 
 /**
  * Task to be submitted to an {@link AsyncExecutor}, returning a result of type T.

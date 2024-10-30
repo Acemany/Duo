@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.anuke.arc.backends.android.surfaceview.surfaceview;
+package arc.backends.android.surfaceview.surfaceview;
 
 import android.content.Context;
 import android.graphics.PixelFormat;

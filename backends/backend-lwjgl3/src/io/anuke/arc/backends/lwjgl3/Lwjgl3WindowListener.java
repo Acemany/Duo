@@ -1,6 +1,6 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.ApplicationListener;
+import arc.ApplicationListener;
 
 /**
  * Receives notifications of various window events, such as iconification,

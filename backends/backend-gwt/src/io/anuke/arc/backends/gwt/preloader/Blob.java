@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
 import com.google.gwt.typedarrays.shared.Int8Array;
 

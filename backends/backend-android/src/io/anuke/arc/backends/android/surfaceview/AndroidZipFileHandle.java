@@ -1,11 +1,11 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.content.res.AssetFileDescriptor;
-import io.anuke.arc.Core;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.backends.android.surfaceview.ZipResourceFile.ZipEntryRO;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Core;
+import arc.Files.FileType;
+import arc.backends.android.surfaceview.ZipResourceFile.ZipEntryRO;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 import java.io.*;
 

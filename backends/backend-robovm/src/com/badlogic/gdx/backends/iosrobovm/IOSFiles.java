@@ -1,7 +1,7 @@
 package com.badlogic.gdx.backends.iosrobovm;
 
-import io.anuke.arc.Files;
-import io.anuke.arc.files.FileHandle;
+import arc.Files;
+import arc.files.FileHandle;
 import org.robovm.apple.foundation.NSBundle;
 
 public class IOSFiles implements Files{

@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.media.AudioManager;
 import android.media.SoundPool;
-import io.anuke.arc.audio.Sound;
-import io.anuke.arc.collection.IntArray;
+import arc.audio.Sound;
+import arc.collection.IntArray;
 
 final class AndroidSound implements Sound{
     final SoundPool soundPool;

@@ -1,7 +1,7 @@
-package io.anuke.arc.files;
+package arc.files;
 
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Files.FileType;
+import arc.util.ArcRuntimeException;
 
 import java.io.*;
 

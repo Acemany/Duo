@@ -1,6 +1,6 @@
 package com.badlogic.gdx.backends.iosrobovm;
 
-import io.anuke.arc.Core;
+import arc.Core;
 import org.robovm.apple.glkit.GLKViewDrawableColorFormat;
 import org.robovm.apple.glkit.GLKViewDrawableDepthFormat;
 import org.robovm.apple.glkit.GLKViewDrawableMultisample;

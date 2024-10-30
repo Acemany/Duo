@@ -14,15 +14,15 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.freetype;
+package arc.freetype;
 
-import io.anuke.arc.assets.AssetDescriptor;
-import io.anuke.arc.assets.AssetLoaderParameters;
-import io.anuke.arc.assets.AssetManager;
-import io.anuke.arc.assets.loaders.FileHandleResolver;
-import io.anuke.arc.assets.loaders.SynchronousAssetLoader;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.files.FileHandle;
+import arc.assets.AssetDescriptor;
+import arc.assets.AssetLoaderParameters;
+import arc.assets.AssetManager;
+import arc.assets.loaders.FileHandleResolver;
+import arc.assets.loaders.SynchronousAssetLoader;
+import arc.collection.Array;
+import arc.files.FileHandle;
 
 /**
  * Makes {@link FreeTypeFontGenerator} managable via {@link AssetManager}.

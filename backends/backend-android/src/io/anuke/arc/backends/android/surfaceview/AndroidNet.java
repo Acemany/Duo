@@ -1,11 +1,11 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import io.anuke.arc.Net;
-import io.anuke.arc.net.*;
+import arc.Net;
+import arc.net.*;
 
 /**
  * Android implementation of the {@link Net} API.

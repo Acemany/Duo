@@ -1,11 +1,11 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
 import com.google.gwt.storage.client.Storage;
-import io.anuke.arc.Files;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.backends.gwt.preloader.Preloader;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Files;
+import arc.Files.FileType;
+import arc.backends.gwt.preloader.Preloader;
+import arc.files.FileHandle;
+import arc.util.ArcRuntimeException;
 
 public class GwtFiles implements Files{
 

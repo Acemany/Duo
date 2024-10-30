@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.headless;
+package arc.backends.headless;
 
-import io.anuke.arc.Files;
-import io.anuke.arc.files.FileHandle;
+import arc.Files;
+import arc.files.FileHandle;
 
 import java.io.File;
 

@@ -1,11 +1,11 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.content.Context;
 import android.view.MotionEvent;
-import io.anuke.arc.Core;
-import io.anuke.arc.backends.android.surfaceview.AndroidInput.TouchEvent;
-import io.anuke.arc.input.KeyCode;
-import io.anuke.arc.util.Log;
+import arc.Core;
+import arc.backends.android.surfaceview.AndroidInput.TouchEvent;
+import arc.input.KeyCode;
+import arc.util.Log;
 
 /**
  * Multitouch handler for devices running Android >= 2.0. If device is capable of (fake) multitouch this will report additional

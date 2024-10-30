@@ -1,17 +1,17 @@
-package io.anuke.arc.assets.loaders;
+package arc.assets.loaders;
 
-import io.anuke.arc.assets.AssetDescriptor;
-import io.anuke.arc.assets.AssetLoaderParameters;
-import io.anuke.arc.assets.AssetManager;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.graphics.Pixmap;
-import io.anuke.arc.graphics.Pixmap.Format;
-import io.anuke.arc.graphics.Texture;
-import io.anuke.arc.graphics.Texture.TextureFilter;
-import io.anuke.arc.graphics.Texture.TextureWrap;
-import io.anuke.arc.graphics.TextureData;
-import io.anuke.arc.graphics.glutils.FileTextureData;
+import arc.assets.AssetDescriptor;
+import arc.assets.AssetLoaderParameters;
+import arc.assets.AssetManager;
+import arc.collection.Array;
+import arc.files.FileHandle;
+import arc.graphics.Pixmap;
+import arc.graphics.Pixmap.Format;
+import arc.graphics.Texture;
+import arc.graphics.Texture.TextureFilter;
+import arc.graphics.Texture.TextureWrap;
+import arc.graphics.TextureData;
+import arc.graphics.glutils.FileTextureData;
 
 public class TextureLoader extends AsynchronousAssetLoader<Texture, TextureLoader.TextureParameter>{
     TextureData data;

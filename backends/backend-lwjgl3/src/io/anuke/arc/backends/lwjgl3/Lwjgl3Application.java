@@ -1,14 +1,14 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.*;
-import io.anuke.arc.backends.lwjgl3.audio.OpenALAudio;
-import io.anuke.arc.backends.lwjgl3.audio.mock.MockAudio;
-import io.anuke.arc.collection.Array;
-import io.anuke.arc.graphics.glutils.GLVersion;
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.Clipboard;
-import io.anuke.arc.util.Log;
-import io.anuke.arc.util.SharedLibraryLoader;
+import arc.*;
+import arc.backends.lwjgl3.audio.OpenALAudio;
+import arc.backends.lwjgl3.audio.mock.MockAudio;
+import arc.collection.Array;
+import arc.graphics.glutils.GLVersion;
+import arc.util.ArcRuntimeException;
+import arc.util.Clipboard;
+import arc.util.Log;
+import arc.util.SharedLibraryLoader;
 import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;

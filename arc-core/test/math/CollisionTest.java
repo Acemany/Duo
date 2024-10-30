@@ -1,7 +1,7 @@
 package math;
 
-import io.anuke.arc.math.collision.BoundingBox;
-import io.anuke.arc.math.geom.Vector3;
+import arc.math.collision.BoundingBox;
+import arc.math.geom.Vector3;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

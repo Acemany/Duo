@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview.surfaceview;
+package arc.backends.android.surfaceview.surfaceview;
 
 /**
  * Will manipulate the GLSurfaceView. Gravity is always center. The width and height of the View will be determined by the

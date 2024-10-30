@@ -1,19 +1,19 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.util.ArcRuntimeException;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.*;
 
 import java.nio.*;
 
-class Lwjgl3GL20 implements io.anuke.arc.graphics.GL20{
+class Lwjgl3GL20 implements arc.graphics.GL20{
     private ByteBuffer buffer = null;
     private FloatBuffer floatBuffer = null;
     private IntBuffer intBuffer = null;
 
     private void ensureBufferCapacity(int numBytes){
         if(buffer == null || buffer.capacity() < numBytes){
-            buffer = io.anuke.arc.util.BufferUtils.newByteBuffer(numBytes);
+            buffer = arc.util.BufferUtils.newByteBuffer(numBytes);
             floatBuffer = buffer.asFloatBuffer();
             intBuffer = buffer.asIntBuffer();
         }
@@ -249,11 +249,11 @@ class Lwjgl3GL20 implements io.anuke.arc.graphics.GL20{
     }
 
     public void glDrawElements(int mode, int count, int type, Buffer indices){
-        if(indices instanceof ShortBuffer && type == io.anuke.arc.graphics.GL20.GL_UNSIGNED_SHORT)
+        if(indices instanceof ShortBuffer && type == arc.graphics.GL20.GL_UNSIGNED_SHORT)
             GL11.glDrawElements(mode, (ShortBuffer)indices);
-        else if(indices instanceof ByteBuffer && type == io.anuke.arc.graphics.GL20.GL_UNSIGNED_SHORT)
+        else if(indices instanceof ByteBuffer && type == arc.graphics.GL20.GL_UNSIGNED_SHORT)
             GL11.glDrawElements(mode, ((ByteBuffer)indices).asShortBuffer());
-        else if(indices instanceof ByteBuffer && type == io.anuke.arc.graphics.GL20.GL_UNSIGNED_BYTE)
+        else if(indices instanceof ByteBuffer && type == arc.graphics.GL20.GL_UNSIGNED_BYTE)
             GL11.glDrawElements(mode, (ByteBuffer)indices);
         else
             throw new ArcRuntimeException("Can't use " + indices.getClass().getName()

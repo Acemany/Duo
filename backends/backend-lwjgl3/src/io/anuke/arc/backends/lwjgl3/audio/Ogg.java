@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.lwjgl3.audio;
+package arc.backends.lwjgl3.audio;
 
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.util.io.StreamUtils;
+import arc.files.FileHandle;
+import arc.util.io.StreamUtils;
 
 import java.io.ByteArrayOutputStream;
 

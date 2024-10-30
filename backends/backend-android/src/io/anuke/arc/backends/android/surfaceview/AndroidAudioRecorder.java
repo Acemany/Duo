@@ -1,10 +1,10 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
-import io.anuke.arc.audio.AudioRecorder;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.audio.AudioRecorder;
+import arc.util.ArcRuntimeException;
 
 /**
  * {@link AudioRecorder} implementation for the android system based on AudioRecord

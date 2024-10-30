@@ -1,11 +1,11 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.util.ArcRuntimeException;
 import org.lwjgl.opengl.*;
 
 import java.nio.*;
 
-class Lwjgl3GL30 extends Lwjgl3GL20 implements io.anuke.arc.graphics.GL30{
+class Lwjgl3GL30 extends Lwjgl3GL20 implements arc.graphics.GL30{
     @Override
     public void glReadBuffer(int mode){
         GL11.glReadBuffer(mode);

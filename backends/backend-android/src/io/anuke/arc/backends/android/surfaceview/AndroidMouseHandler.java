@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.view.InputDevice;
 import android.view.MotionEvent;
-import io.anuke.arc.Core;
-import io.anuke.arc.backends.android.surfaceview.AndroidInput.TouchEvent;
+import arc.Core;
+import arc.backends.android.surfaceview.AndroidInput.TouchEvent;
 
 /**
  * Mouse handler for devices running Android >= 3.1.

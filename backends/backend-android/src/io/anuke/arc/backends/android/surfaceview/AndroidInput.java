@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -20,16 +20,16 @@ import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import io.anuke.arc.Core;
-import io.anuke.arc.Graphics.DisplayMode;
-import io.anuke.arc.Input;
-import io.anuke.arc.collection.Bits;
-import io.anuke.arc.input.InputDevice;
-import io.anuke.arc.input.InputProcessor;
-import io.anuke.arc.input.KeyCode;
-import io.anuke.arc.math.geom.Vector3;
-import io.anuke.arc.util.Log;
-import io.anuke.arc.util.pooling.Pool;
+import arc.Core;
+import arc.Graphics.DisplayMode;
+import arc.Input;
+import arc.collection.Bits;
+import arc.input.InputDevice;
+import arc.input.InputProcessor;
+import arc.input.KeyCode;
+import arc.math.geom.Vector3;
+import arc.util.Log;
+import arc.util.pooling.Pool;
 
 import java.util.ArrayList;
 import java.util.Arrays;

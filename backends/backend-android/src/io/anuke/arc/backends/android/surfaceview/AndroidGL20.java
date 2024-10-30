@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.opengl.GLES20;
-import io.anuke.arc.graphics.GL20;
+import arc.graphics.GL20;
 
 import java.nio.Buffer;
 import java.nio.FloatBuffer;

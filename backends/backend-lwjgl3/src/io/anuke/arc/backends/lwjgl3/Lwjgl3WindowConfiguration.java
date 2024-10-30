@@ -1,10 +1,10 @@
-package io.anuke.arc.backends.lwjgl3;
+package arc.backends.lwjgl3;
 
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.Graphics;
-import io.anuke.arc.Graphics.DisplayMode;
-import io.anuke.arc.backends.lwjgl3.Lwjgl3Graphics.Lwjgl3DisplayMode;
-import io.anuke.arc.graphics.Color;
+import arc.Files.FileType;
+import arc.Graphics;
+import arc.Graphics.DisplayMode;
+import arc.backends.lwjgl3.Lwjgl3Graphics.Lwjgl3DisplayMode;
+import arc.graphics.Color;
 
 import java.util.Arrays;
 

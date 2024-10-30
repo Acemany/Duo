@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.lwjgl3.audio;
+package arc.backends.lwjgl3.audio;
 
-import io.anuke.arc.Audio;
-import io.anuke.arc.audio.AudioDevice;
-import io.anuke.arc.audio.AudioRecorder;
-import io.anuke.arc.collection.*;
-import io.anuke.arc.files.FileHandle;
-import io.anuke.arc.math.Mathf;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Audio;
+import arc.audio.AudioDevice;
+import arc.audio.AudioRecorder;
+import arc.collection.*;
+import arc.files.FileHandle;
+import arc.math.Mathf;
+import arc.util.ArcRuntimeException;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.openal.AL;
 import org.lwjgl.openal.AL10;

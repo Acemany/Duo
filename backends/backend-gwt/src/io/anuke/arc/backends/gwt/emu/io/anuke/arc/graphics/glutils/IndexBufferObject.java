@@ -1,9 +1,9 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.util.BufferUtils;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.Core;
+import arc.graphics.GL20;
+import arc.util.BufferUtils;
+import arc.util.ArcRuntimeException;
 
 import java.nio.ShortBuffer;
 

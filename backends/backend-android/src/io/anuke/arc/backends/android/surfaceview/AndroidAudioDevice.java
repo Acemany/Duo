@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioTrack;
-import io.anuke.arc.audio.AudioDevice;
+import arc.audio.AudioDevice;
 
 /**
  * Implementation of the {@link AudioDevice} interface for Android using the AudioTrack class. You will need to set the permission

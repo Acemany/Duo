@@ -1,9 +1,9 @@
-package io.anuke.arc.files;
+package arc.files;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.Files.FileType;
-import io.anuke.arc.backends.gwt.GwtApplication;
-import io.anuke.arc.backends.gwt.GwtFileHandle;
+import arc.Core;
+import arc.Files.FileType;
+import arc.backends.gwt.GwtApplication;
+import arc.backends.gwt.GwtFileHandle;
 
 import java.io.InputStream;
 import java.io.OutputStream;

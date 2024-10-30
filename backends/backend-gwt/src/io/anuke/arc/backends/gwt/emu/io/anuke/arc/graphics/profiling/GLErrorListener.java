@@ -14,12 +14,12 @@
  * limitations under the License.
  ******************************************************************************/
 
-package io.anuke.arc.graphics.profiling;
+package arc.graphics.profiling;
 
-import io.anuke.arc.util.ArcRuntimeException;
-import io.anuke.arc.util.Log;
+import arc.util.ArcRuntimeException;
+import arc.util.Log;
 
-import static io.anuke.arc.graphics.profiling.GLInterceptor.resolveErrorNumber;
+import static arc.graphics.profiling.GLInterceptor.resolveErrorNumber;
 
 /**
  * @author Jan Polák

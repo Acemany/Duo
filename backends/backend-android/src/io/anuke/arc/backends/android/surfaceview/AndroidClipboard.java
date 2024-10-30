@@ -1,9 +1,9 @@
-package io.anuke.arc.backends.android.surfaceview;
+package arc.backends.android.surfaceview;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-import io.anuke.arc.util.Clipboard;
+import arc.util.Clipboard;
 
 public class AndroidClipboard implements Clipboard{
 

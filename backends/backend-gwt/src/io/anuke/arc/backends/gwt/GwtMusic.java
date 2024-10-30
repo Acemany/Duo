@@ -1,12 +1,12 @@
-package io.anuke.arc.backends.gwt;
+package arc.backends.gwt;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.audio.Music;
-import io.anuke.arc.backends.gwt.soundmanager2.SMSound;
-import io.anuke.arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback;
-import io.anuke.arc.backends.gwt.soundmanager2.SMSoundOptions;
-import io.anuke.arc.backends.gwt.soundmanager2.SoundManager;
-import io.anuke.arc.files.FileHandle;
+import arc.Core;
+import arc.audio.Music;
+import arc.backends.gwt.soundmanager2.SMSound;
+import arc.backends.gwt.soundmanager2.SMSound.SMSoundCallback;
+import arc.backends.gwt.soundmanager2.SMSoundOptions;
+import arc.backends.gwt.soundmanager2.SoundManager;
+import arc.files.FileHandle;
 
 public class GwtMusic implements Music, SMSoundCallback{
     private boolean isPlaying = false;

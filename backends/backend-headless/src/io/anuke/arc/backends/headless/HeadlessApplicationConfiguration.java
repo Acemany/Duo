@@ -1,4 +1,4 @@
-package io.anuke.arc.backends.headless;
+package arc.backends.headless;
 
 public class HeadlessApplicationConfiguration{
     /** The minimum time (in seconds) between each call to the render method or negative to not call the render method at all. */

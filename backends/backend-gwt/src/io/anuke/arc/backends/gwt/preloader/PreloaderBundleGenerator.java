@@ -1,7 +1,7 @@
-package io.anuke.arc.backends.gwt.preloader;
+package arc.backends.gwt.preloader;
 
-import io.anuke.arc.backends.gwt.preloader.AssetFilter.AssetType;
-import io.anuke.arc.util.ArcRuntimeException;
+import arc.backends.gwt.preloader.AssetFilter.AssetType;
+import arc.util.ArcRuntimeException;
 import com.google.gwt.core.ext.*;
 import com.google.gwt.user.rebind.ClassSourceFileComposerFactory;
 import com.google.gwt.user.rebind.SourceWriter;
@@ -225,7 +225,7 @@ public class PreloaderBundleGenerator extends Generator{
     }
 
     private String createDummyClass(TreeLogger logger, GeneratorContext context){
-        String packageName = "io.anuke.arc.backends.gwt.preloader";
+        String packageName = "arc.backends.gwt.preloader";
         String className = "PreloaderBundleImpl";
         ClassSourceFileComposerFactory composer = new ClassSourceFileComposerFactory(packageName, className);
         composer.addImplementedInterface(packageName + ".PreloaderBundle");

@@ -11,7 +11,7 @@
  * governing permissions and limitations under the License.
  */
 
-package io.anuke.arc.backends.android.surfaceview.surfaceview;
+package arc.backends.android.surfaceview.surfaceview;
 
 /**
  * This {@link ResolutionStrategy} will place the GLSurfaceView with the given height and width in the center the screen.

@@ -1,11 +1,11 @@
-package io.anuke.arc.graphics.glutils;
+package arc.graphics.glutils;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.graphics.GL20;
-import io.anuke.arc.graphics.VertexAttribute;
-import io.anuke.arc.graphics.VertexAttributes;
-import io.anuke.arc.graphics.VertexAttributes.Usage;
-import io.anuke.arc.util.BufferUtils;
+import arc.Core;
+import arc.graphics.GL20;
+import arc.graphics.VertexAttribute;
+import arc.graphics.VertexAttributes;
+import arc.graphics.VertexAttributes.Usage;
+import arc.util.BufferUtils;
 
 import java.nio.FloatBuffer;
 

@@ -1,9 +1,9 @@
-package io.anuke.arc.assets.loaders.resolvers;
+package arc.assets.loaders.resolvers;
 
-import io.anuke.arc.Core;
-import io.anuke.arc.assets.loaders.FileHandleResolver;
-import io.anuke.arc.backends.gwt.GwtFileHandle;
-import io.anuke.arc.files.FileHandle;
+import arc.Core;
+import arc.assets.loaders.FileHandleResolver;
+import arc.backends.gwt.GwtFileHandle;
+import arc.files.FileHandle;
 
 public class ResolutionFileResolver implements FileHandleResolver{
     protected final FileHandleResolver baseResolver;
